@@ -4,6 +4,21 @@ EDAE49 - Sunray, F9C80E - Jonquil
 */
 @import url('https://fonts.googleapis.com/css?family=Archivo|Questrial|Baloo+2');
 
+:root {
+  --bg-color: #427aa1; 
+  --menu-color: #05668d;
+  --text-color: #ebf2fa;
+  --title-color: #e6cb20;
+}
+
+p {
+  color: #ebf2fa;
+}
+
+.titleFormat {
+  color: var(--title-color);
+}
+
 .App {
   text-align: center;
   font-family: Archivo;
@@ -21,7 +36,7 @@ EDAE49 - Sunray, F9C80E - Jonquil
 }
 
 .App-header {
-  background-color: #427aa1;
+  background-color: var(--bg-color);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -33,10 +48,6 @@ EDAE49 - Sunray, F9C80E - Jonquil
 
 .App-link {
   color: #a5be00;
-}
-
-p {
-  color: #ebf2fa;
 }
 
 @keyframes App-logo-spin {
