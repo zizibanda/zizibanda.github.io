@@ -1,5 +1,12 @@
+/* https://coolors.co/05668d-427aa1-ebf2fa-679436-a5be00 - Color Palette */
+/* 131112 - Smoky Black, FFE74C - Minion Yellow, 7DC95E - Mantis
+EDAE49 - Sunray, F9C80E - Jonquil
+*/
+@import url('https://fonts.googleapis.com/css?family=Archivo|Questrial|Baloo+2');
+
 .App {
   text-align: center;
+  font-family: Archivo;
 }
 
 .App-logo {
@@ -14,18 +21,22 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #427aa1;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #ebf2fa;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #a5be00;
+}
+
+p {
+  color: #ebf2fa;
 }
 
 @keyframes App-logo-spin {
