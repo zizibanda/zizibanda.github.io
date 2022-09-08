@@ -8,9 +8,8 @@ I am determined to solve and/or detect problems in an innovative manner, with fr
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header" id="home">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+    <div className="Portfolio">
+      <header className="Portfolio-header" id="home">
         <h1 className="titleFormat">ZIZI BANDA</h1>
         <h3 className="titleFormat">QA ENGINEER</h3>
         {/* Add Socials Here */}
