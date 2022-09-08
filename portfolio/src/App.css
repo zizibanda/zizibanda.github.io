@@ -1,38 +1,38 @@
-.App {
+/* https://coolors.co/05668d-427aa1-ebf2fa-679436-a5be00 - Color Palette */
+/* 131112 - Smoky Black, FFE74C - Minion Yellow, 7DC95E - Mantis
+EDAE49 - Sunray, F9C80E - Jonquil
+*/
+
+/* https://coolors.co/palette/000000-14213d-fca311-e5e5e5-ffffff */
+@import url("https://fonts.googleapis.com/css?family=Archivo|Questrial|Baloo+2");
+
+:root {
+  --bg-color: #14213d;
+  --menu-bg-color: #05668d;
+  --menu-text-color: #000000;
+  --text-color: #e5e5e5;
+  --title-color: #fca311;
+}
+
+p {
+  color: var(--text-color);
+}
+
+.titleFormat {
+  color: var(--title-color);
+}
+
+.Portfolio {
   text-align: center;
+  font-family: Archivo;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Portfolio-header {
+  background-color: var(--bg-color);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  color: #ebf2fa;
 }
