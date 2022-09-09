@@ -26,6 +26,12 @@ h3 {
   margin: var(--default-margin);
 }
 
+hr {
+  width: 70%;
+  background-color: var(--menu-bg-color);
+  height: 4px;
+}
+
 .titleFormat {
   color: var(--title-color);
 }
@@ -71,4 +77,12 @@ h3 {
 
 section {
   margin: 20px 0;
+}
+
+#skills img {
+  transition: transform 0.3s;
+}
+
+#skills img:hover {
+  transform: scale(1.2);
 }

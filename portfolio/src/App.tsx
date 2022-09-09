@@ -110,16 +110,11 @@ function App() {
             ></img>
           </div>
           <div className="column">
-            <img
-              src="/Mocha.png"
-              width="auto"
-              height="100px"
-              alt="Mocha"
-            ></img>
+            <img src="/Mocha.png" width="auto" height="100px" alt="Mocha"></img>
           </div>
           <div className="column">
             <img
-              src="/Cucumber.svg"
+              src="\Cucumber.svg"
               width="auto"
               height="100px"
               alt="Gherkin/Cucumber"
@@ -143,13 +138,109 @@ function App() {
           </div>
         </div>
 
-        <div className="row"></div>
+        <hr></hr>
 
-        <div className="row"></div>
+        <div className="row">
+          <div className="column">
+            <img
+              src="JSIcon.png"
+              width="auto"
+              height="100px"
+              alt="JS Logo"
+            ></img>
+          </div>
 
-        <div className="row"></div>
+          <div className="column">
+            <img
+              src="TSIcon.png"
+              width="auto"
+              height="100px"
+              alt="TS Logo"
+            ></img>
+          </div>
 
-        <div className="row"></div>
+          <div className="column">
+            <img
+              src="HTMLIcon.png"
+              width="auto"
+              height="100px"
+              alt="HTML Logo"
+            ></img>
+          </div>
+
+          <div className="column">
+            <img
+              src="CSSIcon.png"
+              width="auto"
+              height="100px"
+              alt="CSS Logo"
+            ></img>
+          </div>
+        </div>
+
+        <hr></hr>
+
+        <div className="row">
+          <div className="column">
+            <img
+              src="CSharp.png"
+              width="auto"
+              height="100px"
+              alt="C# Logo"
+            ></img>
+          </div>
+
+          <div className="column">
+            <img
+              src="JavaIcon.png"
+              width="auto"
+              height="100px"
+              alt="Java Logo"
+            ></img>
+          </div>
+
+          <div className="column">
+            <img
+              src="PythonIcon.png"
+              width="auto"
+              height="100px"
+              alt="Python Logo"
+            ></img>
+          </div>
+        </div>
+
+        <hr></hr>
+
+        <div className="row">
+          <div className="column">
+            <img
+              src="MySQLIcon.png"
+              width="100px"
+              height="auto"
+              alt="SQL Logo"
+            ></img>
+          </div>
+
+          <div className="column">
+            <img
+              src="GitIcon.png"
+              width="100px"
+              height="auto"
+              alt="Git Logo"
+            ></img>
+          </div>
+
+          <div className="column">
+            <img
+              src="JIRA.png"
+              width="auto"
+              height="100px"
+              alt="Jira Logo"
+            ></img>
+          </div>
+        </div>
+
+        <hr></hr>
       </section>
       {/* Add Projects */}
       {/* Add Contact Me */}
