@@ -242,8 +242,20 @@ function App() {
 
         <hr></hr>
       </section>
-      {/* Add Projects */}
+
+      {/* Add Projects - Find Carousel package TODO*/}
+      <section id="projects">
+        <h2 className="titleFormat">PROJECTS</h2>
+      </section>
+
       {/* Add Contact Me */}
+      <section id="contact">
+        <h2 className="titleFormat">CONTACT ME</h2>
+        <p>If you would like to get to know me, don't hesistate to connect on my socials or contact me via Email </p>
+        <p>EMAIL: johnzkbanda@gmail.com</p>
+        <p>UK, London</p>
+        {/* Make Socials into another function so it is not repeated code */}
+      </section>
     </div>
   );
 }

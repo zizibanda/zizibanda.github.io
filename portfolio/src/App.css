@@ -20,6 +20,11 @@ p {
   font-size: 26px;
 }
 
+footer {
+  background-color: var(--title-color);
+  color: var(--title-color);
+}
+
 h1,
 h2,
 h3 {
@@ -34,6 +39,8 @@ hr {
 
 .titleFormat {
   color: var(--title-color);
+  text-decoration: underline;
+  text-underline-offset: 8px;
 }
 
 .Portfolio {
@@ -85,4 +92,8 @@ section {
 
 #skills img:hover {
   transform: scale(1.2);
+}
+
+footer {
+  background-color: var(--title-color);
 }
