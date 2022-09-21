@@ -16,6 +16,31 @@
   background-color: var(--bg-color);
 }
 
+body {
+  overflow-x: hidden;
+}
+
+button {
+  font-size: 36px;
+  color: var(--title-color);
+  border-style: solid;
+  border-width: 8px;
+  border-color: var(--bg-color);
+  background-color: var(--bg-color);
+  cursor: pointer;
+  font-weight: bold;
+  margin: 8px 16px;
+  padding: 0px;
+}
+
+button:hover {
+  background-color: var(--menu-bg-color);
+  border-color: var(--menu-bg-color);
+  border-width: 8px;
+  border-color: var(--menu-bg-color);
+  background-color: var(--menu-bg-color);
+}
+
 p {
   font-size: 26px;
 }
