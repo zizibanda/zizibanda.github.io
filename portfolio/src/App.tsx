@@ -1,5 +1,9 @@
 import React from "react";
 import "./App.css";
+import Carousel from "./Components/Carousel";
+import DiscordSlide from "./Components/DiscordSlide";
+import MinesweeperSlide from "./Components/MinesweeperSlide";
+import YumSlide from "./Components/YumSlide";
 
 const profile = `I am a software developer with a strong passion for Quality Assurance and aspiration to grow my career as a software developer. 
 I specialise in establishing and building manual and automated test suites using various different testing frameworks. 
@@ -246,6 +250,13 @@ function App() {
       {/* Add Projects - Find Carousel package TODO*/}
       <section id="projects">
         <h2 className="titleFormat">PROJECTS</h2>
+        
+          <Carousel>
+            <MinesweeperSlide />
+            <YumSlide />
+            <DiscordSlide />
+
+          </Carousel>
       </section>
 
       {/* Add Contact Me */}
